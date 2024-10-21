@@ -1,3 +1,3 @@
 export const mapboxConstant = {
-  PUBLIC_TOKEN : process.env.MAPBOX_TOKEN as string
+  PUBLIC_TOKEN : process.env.NEXT_PUBLIC_MAPBOX_TOKEN as string
 }
