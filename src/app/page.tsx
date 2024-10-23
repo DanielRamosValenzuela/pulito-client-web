@@ -8,7 +8,7 @@ import { MapBoxMap } from './ui/MapBoxMap';
 export default function Home() {
   return (
     <Container>
-      <MapBoxMap/>
+      {/* <MapBoxMap/> */}
       <div>Start</div>
     </Container>
   );
