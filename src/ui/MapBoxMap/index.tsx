@@ -1,13 +1,13 @@
 'use client';
+
 import Map from 'react-map-gl';
 import { mapboxConstant } from "@/config/mapbox";
-import { Wrapper } from '@/lib/layout/Wrapper';
 
 interface MapProps {}
 
 export const MapBoxMap: React.FC<MapProps> = ({}) => {
   return (
-    <Wrapper>
+    <div>
       <Map
         mapboxAccessToken={mapboxConstant.PUBLIC_TOKEN}
         initialViewState={{
@@ -18,6 +18,6 @@ export const MapBoxMap: React.FC<MapProps> = ({}) => {
         style={{ width: 600, height: 400 }}
         mapStyle='mapbox://styles/mapbox/streets-v9'
       />
-    </Wrapper>
+    </div>
   );
 };

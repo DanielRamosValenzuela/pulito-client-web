@@ -1,5 +1,6 @@
-import { navbarLinks } from "@/app/shared/constants/navigation/navbarLinks"
+
 import Link from "next/link"
+import { navbarLinks } from "@/shared/constants/navigation/navbarLinks"
 
 const MenuItems = () => {
   return (

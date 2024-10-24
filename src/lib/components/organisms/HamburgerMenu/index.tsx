@@ -11,7 +11,7 @@ const HamburgerMenu = () => {
   const { toggleNavbar, isOpenMenu } = useHamburgerMenu();
 
   return (
-    <aside className='md:hidden fixed w-full h-24 shadow-xl  bg-navyBlue'>
+    <aside className='md:hidden w-full h-24 shadow-xl  bg-navyBlue'>
       <section className='flex items-center justify-between p-5'>
       <Logo />
         <button

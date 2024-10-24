@@ -1,4 +1,5 @@
-import { userLinks } from '@/app/shared/constants/navigation/userLinks';
+
+import { userLinks } from '@/shared/constants/navigation/userLinks';
 import Link from 'next/link';
 
 const UserItems = () => {
