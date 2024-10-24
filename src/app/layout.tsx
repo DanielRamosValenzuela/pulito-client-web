@@ -4,6 +4,7 @@ import Navbar from '@/lib/components/organisms/Navbar';
 import HamburgerMenu from '@/lib/components/organisms/HamburgerMenu';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './globals.css';
+import Footer from '@/lib/components/organisms/Footer';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -58,10 +59,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang='es'>
-      <body className={`${poppins.variable} antialiased`}>
+      <body className={`${poppins.variable} grid min-h-dvh grid-rows-[auto_1fr_auto] antialiased`}>
         <Navbar />
         <HamburgerMenu />
         {children}
+        <Footer />
       </body>
     </html>
   );
