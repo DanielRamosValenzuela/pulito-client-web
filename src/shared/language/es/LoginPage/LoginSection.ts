@@ -1,5 +1,5 @@
 export const LOGIN_SECTION = {
-  create_account: 'Crea tu cuenta',
+  sing_in_with_us: 'Inicia sesión con nosotros',
   use_email: 'O usa tu correo electrónico',
   password_placeholder: 'Email',
   email_placeholder: 'Contraseña',

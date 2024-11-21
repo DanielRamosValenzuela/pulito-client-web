@@ -15,7 +15,7 @@ const LoginSection = () => {
     </div>
     <div className='py-10'>
       <h2 className='text-3xl font-bold text-navyBlue-400 mb-2'>
-        {LOGIN_SECTION.create_account}
+        {LOGIN_SECTION.sing_in_with_us}
       </h2>
       <hr className='border-2 w-10 border-navyBlue-400 inline-block mb-2' />
       <div className='flex flex-col items-center md:flex-row justify-center my-2 gap-5'>
