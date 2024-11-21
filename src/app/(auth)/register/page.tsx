@@ -1,9 +1,9 @@
 
 
-const RegisterScreen = () => {
+const RegisterPage = () => {
   return (
     <div>RegisterScreen</div>
   )
 }
 
-export default RegisterScreen
+export default RegisterPage

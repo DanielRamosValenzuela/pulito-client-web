@@ -5,7 +5,7 @@ import HamburgerMenu from '@/lib/components/organisms/HamburgerMenu';
 import Footer from '@/lib/components/organisms/Footer';
 import { Container, Wrapper } from '@/lib/layout';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className='grid min-h-dvh grid-rows-[auto_1fr_auto] antialiased'>
       <Navbar />
