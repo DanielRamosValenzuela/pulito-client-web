@@ -1,10 +1,9 @@
 import { MapBoxMap } from '@/ui/MapBoxMap';
-import { Wrapper } from '@/lib/layout/Wrapper';
-import { Container } from '@/lib/layout/Container';
 import AccordionItems from '@/ui/AccordionItems';
 import Navbar from '@/lib/components/organisms/Navbar';
 import HamburgerMenu from '@/lib/components/organisms/HamburgerMenu';
 import Footer from '@/lib/components/organisms/Footer';
+import { Container, Wrapper } from '@/lib/layout';
 
 export default function Home() {
   return (

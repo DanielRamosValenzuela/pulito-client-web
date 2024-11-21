@@ -3,7 +3,7 @@ import { WELCOME_SECTION } from '@/shared/language/es';
 
 const WelcomeSection = () => {
   return (
-    <section className='w-2/5 bg-navyBlue-400 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12'>
+    <section className='w-full md:w-2/5 bg-navyBlue-400 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12'>
       <h2 className='text-3xl font-bold mb-2'>{WELCOME_SECTION.welcome}</h2>
       <hr className='border-2 w-10 border-white inline-block mb-2' />
       <p className='mb-10'>{WELCOME_SECTION.join_us}</p>

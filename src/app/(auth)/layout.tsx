@@ -1,4 +1,4 @@
-import { MainContainer } from "@/lib/layout/MainContainer";
+import { MainContainer } from "@/lib/layout";
 
 export default function LoginLayout({
   children,

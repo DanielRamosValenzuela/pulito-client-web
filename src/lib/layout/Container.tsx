@@ -5,10 +5,13 @@ interface ContainerProps {
   className?: string;
 }
 
-export const Container: React.FC<ContainerProps> = ({ children, className = '' }) => {
+const Container: React.FC<ContainerProps> = ({ children, className = '' }) => {
   return (
     <section className={`flex flex-col justify-center items-center ${className}`}>
       {children}
     </section>
   );
 };
+
+
+export default Container
